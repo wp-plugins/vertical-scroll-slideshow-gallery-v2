@@ -5,9 +5,11 @@ Plugin Name: Vertical scroll slideshow gallery v2
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Description:  Vertical scroll slideshow gallery plugin will create the vertical scrolling image slideshow gallery on the wordpress widget.
 Author: Gopi.R
-Version: 6.0
+Version: 6.1
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 function vssg2_slideshow() 
@@ -86,7 +88,7 @@ function vssg2_install()
 {
 	add_option('vssg2_title', "Slide Show");
 	add_option('vssg2_width', "100px");
-	add_option('vssg2_height', "75px");
+	add_option('vssg2_height', "85px");
 	add_option('vssg2_time', "3000");
 	add_option('vssg2_xml', "widget.xml");
 }
@@ -137,7 +139,7 @@ function vssg2_option()
 	echo '<p>Title:<br><input  style="width: 200px;" maxlength="100" type="text" value="';
 	echo $vssg2_title . '" name="vssg2_title" id="vssg2_title" /></p>';
 	
-	echo '<p>set the scrollerwidth and scrollerheight to the width/height of the largest image in your slideshow!</p>';
+	echo '<p>Set the scroller width and scroller height to the width/height of the largest image in your slideshow!</p>';
 	
 	echo '<p>Width:<br><input  style="width: 100px;" maxlength="5" type="text" value="';
 	echo $vssg2_width . '" name="vssg2_width" id="vssg2_width" /></p>';
@@ -154,16 +156,20 @@ function vssg2_option()
 	echo '<input name="vssg2_submit" id="vssg2_submit" class="button-primary" value="Submit" type="submit" />';
 	echo '</form>';
 	?>
-    <h2>Drag and drop the widget!</h2>
-    Go to widget menu and drag and drop the "Vertical Scroll Slideshow Gallery V2" widget to your sidebar location.
-    <h2>Paste the below code to your desired template location!</h2>
+	<br />
+    <strong>Option 1. Drag and drop the widget!</strong>
+	<ul>
+    	<li>Go to widget menu and drag and drop the "Vertical Scroll Slideshow Gallery V2" widget to your sidebar location.</li>
+    </ul>
+	<strong>Option 2. Paste the below code to your desired template location!</strong>
     <div style="padding-top:7px;padding-bottom:7px;">
     <code style="padding:7px;">
-    &lt;?php if (function_exists (vssg2_slideshow)) vssg2_slideshow(); ?&gt;
+    &lt;?php vssg2_slideshow(); ?&gt;
     </code></div>
-    <h2>How to upload my own images!</h2>
-    <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>Please check help page.</a><br>
-	<br>Note: Check official website for live demo and more information <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>click here</a><br>
+	<ul>
+		<li>How to upload my images <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>click here</a></li>
+	</ul>
+	Check official website for live demo and more information <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>click here</a>
 	<?php
 	echo "</div>";
 	

@@ -1,12 +1,14 @@
 === Vertical scroll slideshow gallery v2 ===
 Contributors: www.gopiplus.com, gopiplus 
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 6.0
+Tested up to: 3.5
+Stable tag: 6.1
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Tags: Vertical, scroll, images, slideshow, gallery
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
 Vertical scroll slideshow gallery plugin will create the vertical scrolling image slideshow gallery on the wordpress widget.
 
@@ -51,8 +53,11 @@ Q4. Why my slideshow not scroll properly or why one image overlaps another at th
 
 == Upgrade Notice ==
 
+= 6.1 =	
+Tested upto 3.5
+
 = 6.0 =	
-New demo link, www.gopiplus.com
+New demo link, http://www.gopiplus.com
 
 = 5.0 =	
 Tested upto 3.4 (Before updtate new version, pls take the XML file for backup)
@@ -72,8 +77,11 @@ First version
 
 == Changelog ==
 
+= 6.1 =	
+Tested upto 3.5
+
 = 6.0 =	
-New demo link, www.gopiplus.com
+New demo link, http://www.gopiplus.com
 
 = 5.0 =	
 Tested upto 3.4 (Before updtate new version, pls take the XML file for backup)
@@ -90,4 +98,3 @@ Tested upto 3.0.1
 
 = 1.0 =		
 First version
-
