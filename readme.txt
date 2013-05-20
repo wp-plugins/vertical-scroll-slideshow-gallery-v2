@@ -1,8 +1,8 @@
 === Vertical scroll slideshow gallery v2 ===
 Contributors: www.gopiplus.com, gopiplus 
-Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 6.1
+Requires at least: 3.4
+Tested up to: 3.6
+Stable tag: 7.0
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
@@ -53,6 +53,9 @@ Q4. Why my slideshow not scroll properly or why one image overlaps another at th
 
 == Upgrade Notice ==
 
+= 7.0 =	
+Tested upto 3.6
+
 = 6.1 =	
 Tested upto 3.5
 
@@ -76,6 +79,9 @@ Tested upto 3.0.1
 First version
 
 == Changelog ==
+
+= 7.0 =	
+Tested upto 3.6
 
 = 6.1 =	
 Tested upto 3.5

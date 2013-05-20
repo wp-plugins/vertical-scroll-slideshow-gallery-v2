@@ -5,7 +5,7 @@ Plugin Name: Vertical scroll slideshow gallery v2
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Description:  Vertical scroll slideshow gallery plugin will create the vertical scrolling image slideshow gallery on the wordpress widget.
 Author: Gopi.R
-Version: 6.1
+Version: 7.0
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 License: GPLv2 or later
@@ -167,9 +167,9 @@ function vssg2_option()
     &lt;?php vssg2_slideshow(); ?&gt;
     </code></div>
 	<ul>
-		<li>How to upload my images <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>click here</a></li>
+		<li>How to upload my images <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">click here</a></li>
 	</ul>
-	Check official website for live demo and more information <a target="_blank" href='http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/'>click here</a>
+	Check official website for live demo and more information <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">click here</a>
 	<?php
 	echo "</div>";
 	
