@@ -5,7 +5,7 @@ Plugin Name: Vertical scroll slideshow gallery v2
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Description:  Vertical scroll slideshow gallery plugin will create the vertical scrolling image slideshow gallery on the wordpress widget.
 Author: Gopi.R
-Version: 7.0
+Version: 7.1
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 License: GPLv2 or later
@@ -105,74 +105,87 @@ function vssg2_widget($args)
 
 function vssg2_control()
 {
-	echo '<p>Vertical Scroll Slideshow Gallery V2.<br> To change the setting goto Vertical Scroll Slideshow Gallery V2 link under Setting menu.';
-	echo ' <a href="options-general.php?page=vertical-scroll-slideshow-gallery-v2/vertical-scroll-slideshow-gallery-v2.php">';
+	echo '<p>Vertical Scroll Slideshow Gallery V2.<br> To change the setting goto <b>Vertical Scroll Slideshow Gallery V2</b> link under <b>Settings</b> menu.';
+	echo ' <a href="options-general.php?page=vertical-scroll-slideshow-gallery-v2">';
 	echo 'click here</a></p>';
 }
 
 function vssg2_option() 
 {
-	echo "<div class='wrap'>";
-	echo "<h2>Vertical scroll slideshow gallery v2</h2>"; 
-	
-	$vssg2_title = get_option('vssg2_title');
-	$vssg2_width = get_option('vssg2_width');
-	$vssg2_height = get_option('vssg2_height');
-	$vssg2_time = get_option('vssg2_time');
-	$vssg2_xml = get_option('vssg2_xml');
-	
-	if (@$_POST['vssg2_submit']) 
-	{
-		$vssg2_title = stripslashes($_POST['vssg2_title']);
-		$vssg2_width = stripslashes($_POST['vssg2_width']);
-		$vssg2_height = stripslashes($_POST['vssg2_height']);
-		$vssg2_time = stripslashes($_POST['vssg2_time']);
-		$vssg2_xml = stripslashes($_POST['vssg2_xml']);
-		
-		update_option('vssg2_title', $vssg2_title );
-		update_option('vssg2_width', $vssg2_width );
-		update_option('vssg2_height', $vssg2_height );
-		update_option('vssg2_time', $vssg2_time );
-		update_option('vssg2_xml', $vssg2_xml );
-	}
-	echo '<form name="my_hmg_form" method="post" action="">';
-	echo '<p>Title:<br><input  style="width: 200px;" maxlength="100" type="text" value="';
-	echo $vssg2_title . '" name="vssg2_title" id="vssg2_title" /></p>';
-	
-	echo '<p>Set the scroller width and scroller height to the width/height of the largest image in your slideshow!</p>';
-	
-	echo '<p>Width:<br><input  style="width: 100px;" maxlength="5" type="text" value="';
-	echo $vssg2_width . '" name="vssg2_width" id="vssg2_width" /></p>';
-	
-	echo '<p>Height:<br><input  style="width: 100px;" maxlength="5" type="text" value="';
-	echo $vssg2_height . '" name="vssg2_height" id="vssg2_height" /></p>';
-	
-	echo '<p>Slide timeout:<br><input  style="width: 100px;" maxlength="6" type="text" value="';
-	echo $vssg2_time . '" name="vssg2_time" id="vssg2_time" /> (3000 = 3 seconds)</p>';
-	
-	echo '<p>Enter XML filename:<br><input  style="width: 200px;" type="text" value="';
-	echo $vssg2_xml . '" name="vssg2_xml" id="vssg2_xml" /> (Default: widget.xml)</p>';
-	
-	echo '<input name="vssg2_submit" id="vssg2_submit" class="button-primary" value="Submit" type="submit" />';
-	echo '</form>';
 	?>
-	<br />
-    <strong>Option 1. Drag and drop the widget!</strong>
-	<ul>
-    	<li>Go to widget menu and drag and drop the "Vertical Scroll Slideshow Gallery V2" widget to your sidebar location.</li>
-    </ul>
-	<strong>Option 2. Paste the below code to your desired template location!</strong>
-    <div style="padding-top:7px;padding-bottom:7px;">
-    <code style="padding:7px;">
-    &lt;?php vssg2_slideshow(); ?&gt;
-    </code></div>
-	<ul>
-		<li>How to upload my images <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">click here</a></li>
-	</ul>
-	Check official website for live demo and more information <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">click here</a>
-	<?php
-	echo "</div>";
-	
+	<div class="wrap">
+	  <div class="form-wrap">
+		<div id="icon-edit" class="icon32 icon32-posts-post"></div>
+		<h2>Vertical scroll slideshow gallery v2</h2>
+		<?php
+		$vssg2_title = get_option('vssg2_title');
+		$vssg2_width = get_option('vssg2_width');
+		$vssg2_height = get_option('vssg2_height');
+		$vssg2_time = get_option('vssg2_time');
+		$vssg2_xml = get_option('vssg2_xml');
+			
+		if (isset($_POST['vssg2_form_submit']) && $_POST['vssg2_form_submit'] == 'yes')
+		{
+			//	Just security thingy that wordpress offers us
+			check_admin_referer('vssg2_form_setting');
+			
+			$vssg2_title = stripslashes($_POST['vssg2_title']);
+			$vssg2_width = stripslashes($_POST['vssg2_width']);
+			$vssg2_height = stripslashes($_POST['vssg2_height']);
+			$vssg2_time = stripslashes($_POST['vssg2_time']);
+			$vssg2_xml = stripslashes($_POST['vssg2_xml']);
+			
+			update_option('vssg2_title', $vssg2_title );
+			update_option('vssg2_width', $vssg2_width );
+			update_option('vssg2_height', $vssg2_height );
+			update_option('vssg2_time', $vssg2_time );
+			update_option('vssg2_xml', $vssg2_xml );
+			
+			?>
+			<div class="updated fade">
+				<p><strong>Details successfully updated.</strong></p>
+			</div>
+			<?php
+		}
+		?>
+		<h3>Plugin setting</h3>
+		<form name="vssg2_form" method="post" action="#">
+		
+			<label for="tag-title">Title</label>
+			<input name="vssg2_title" type="text" value="<?php echo $vssg2_title; ?>"  id="vssg2_title" size="70" maxlength="200">
+			<p>Please enter your widget title.</p>
+			
+			<label for="tag-title">Width</label>
+			<input name="vssg2_width" type="text" value="<?php echo $vssg2_width; ?>"  id="vssg2_width" maxlength="5">
+			<p>Set the scroller width and scroller height to the width/height of the largest image in your slideshow. (Example: 100px)</p>
+			
+			<label for="tag-title">Height</label>
+			<input name="vssg2_height" type="text" value="<?php echo $vssg2_height; ?>"  id="vssg2_height" maxlength="5">
+			<p>Set the scroller width and scroller height to the width/height of the largest image in your slideshow. (Example: 85px)</p>
+			
+			<label for="tag-title">Timeout</label>
+			<input name="vssg2_time" type="text" value="<?php echo $vssg2_time; ?>"  id="vssg2_time" maxlength="5">
+			<p>Please enter slideshow timeout. (Example: 3000)</p>
+			
+			<label for="tag-title">Enter XML filename</label>
+			<input name="vssg2_xml" type="text" value="<?php echo $vssg2_xml; ?>"  id="vssg2_xml" size="40" maxlength="200">
+			<p>Please enter slideshow XML filename. (Example: widget.xml)</p>
+			
+			<div style="height:10px;"></div>
+			<input type="hidden" name="vssg2_form_submit" value="yes"/>
+			<input name="vssg2_submit" id="vssg2_submit" class="button" value="Submit" type="submit" />
+			<a class="button" target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">Help</a>
+			<?php wp_nonce_field('vssg2_form_setting'); ?>
+		</form>
+		</div>
+		<h3>Plugin configuration option</h3>
+		<ol>
+			<li>Drag and drop the widget to your sidebar.</li>
+			<li>Add directly in to the theme using PHP code.</li>
+		</ol>
+	<p class="description">Check official website for more information <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/">click here</a></p>
+	</div>
+	<?php	
 }
 
 function vssg2_widget_init() 
@@ -198,7 +211,7 @@ function vssg2_deactivation()
 
 function vssg2_add_to_menu() 
 {
-	add_options_page('Vertical Scroll Slideshow Gallery V2', 'Vertical Scroll Slideshow Gallery V2', 'manage_options', __FILE__, 'vssg2_option' );
+	add_options_page('Vertical Scroll Slideshow Gallery V2', 'Vertical Scroll Slideshow Gallery V2', 'manage_options', 'vertical-scroll-slideshow-gallery-v2', 'vssg2_option' );
 }
 
 if (is_admin()) 
