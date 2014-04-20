@@ -1,12 +1,12 @@
 === Vertical scroll slideshow gallery v2 ===
 Contributors: www.gopiplus.com, gopiplus 
 Requires at least: 3.4
-Tested up to: 3.8
-Stable tag: 7.2
+Tested up to: 3.9
+Stable tag: 7.3
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
-Tags: Vertical, scroll, images, slideshow, gallery
+Tags: vertical, scroll, images, slideshow, gallery
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -55,6 +55,10 @@ Q4. Why my slideshow not scroll properly or why one image overlaps another at th
 
 == Upgrade Notice ==
 
+= 7.3 =	
+
+1. Tested up to 3.9
+
 = 7.2 =	
 
 1. Tested up to 3.8
@@ -66,25 +70,31 @@ Plugin *.po file (vertical-scroll-slideshow.po) available in the languages folde
 Minor change in the admin layout.
 
 = 7.0 =	
+
 Tested upto 3.6
 
 = 6.1 =	
+
 Tested upto 3.5
 
 = 6.0 =	
+
 New demo link, http://www.gopiplus.com
 
 = 5.0 =	
 Tested upto 3.4 (Before updtate new version, pls take the XML file for backup)
 
 = 4.0 =	
+
 Tested upto 3.3
 
-= 3.0 =			
+= 3.0 =		
+	
 Security fixes (Only admin user can see the plugin menu in the dashboard)				
 Tested upto 3.1.3	
 
-= 2.0 =			
+= 2.0 =	
+		
 Tested upto 3.0.1		
 
 = 1.0 =		
@@ -92,6 +102,10 @@ First version
 
 == Changelog ==
 
+= 7.3 =	
+
+1. Tested up to 3.9
+
 = 7.2 =	
 
 1. Tested up to 3.8
@@ -103,26 +117,34 @@ Plugin *.po file (vertical-scroll-slideshow.po) available in the languages folde
 Minor change in the admin layout.
 
 = 7.0 =	
+
 Tested upto 3.6
 
 = 6.1 =	
+
 Tested upto 3.5
 
 = 6.0 =	
+
 New demo link, http://www.gopiplus.com
 
 = 5.0 =	
+
 Tested upto 3.4 (Before updtate new version, pls take the XML file for backup)
 
 = 4.0 =	
+
 Tested upto 3.3
 
-= 3.0 =			
+= 3.0 =		
+	
 Security fixes (Only admin user can see the plugin menu in the dashboard)				
 Tested upto 3.1.3	
 
-= 2.0 =			
+= 2.0 =		
+	
 Tested upto 3.0.1		
 
-= 1.0 =		
+= 1.0 =	
+	
 First version
