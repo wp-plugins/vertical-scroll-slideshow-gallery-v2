@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vertical scroll slideshow gallery v2\n"
+"POT-Creation-Date: 2015-10-18 17:35+0800\n"
+"PO-Revision-Date: 2015-10-18 17:35+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:110
+msgid "Vertical scroll slideshow"
+msgstr "Pionowe przewijanie slajdów"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:112
+#: ../vertical-scroll-slideshow-gallery-v2.php:189
+msgid "Check official website for more information"
+msgstr "Sprawdzić oficjalną stronę internetową, aby uzyskać więcej informacji"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:113
+#: ../vertical-scroll-slideshow-gallery-v2.php:190
+msgid "click here"
+msgstr "kliknij tutaj"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:122
+msgid "Vertical scroll slideshow gallery v2"
+msgstr "Przewijania pionowego galerii Pokaz v2"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:149
+msgid "Details successfully updated."
+msgstr "Szczegóły pomyślnie zaktualizowane."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:154
+msgid "Plugin setting"
+msgstr "Ustawienia"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:157
+msgid "Title"
+msgstr "Tytuł"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:159
+msgid "Please enter your widget title."
+msgstr "Podaj widget tytuł."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:161
+msgid "Width"
+msgstr "Szerokość"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:163
+#: ../vertical-scroll-slideshow-gallery-v2.php:167
+msgid ""
+"Set the scroller width and scroller height to the width/height of the "
+"largest image in your slideshow."
+msgstr ""
+"Ustawić szerokość i wysokość scroller scroller do szerokości / wysokości "
+"największego obrazu w pokazie slajdów."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:165
+msgid "Height"
+msgstr "Wysokość"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:169
+msgid "Timeout"
+msgstr "Limit czasu"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:171
+msgid "Please enter slideshow timeout."
+msgstr "Proszę wprowadzić limit czasu pokazu slajdów."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:173
+msgid "Enter XML filename"
+msgstr "Proszę podać nazwę pliku:"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:175
+msgid "Please enter slideshow XML filename."
+msgstr "Podaj nazwę pliku XML pokazu slajdów."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:179
+msgid "Submit"
+msgstr "Wyślij"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:180
+msgid "Help"
+msgstr "Pomoc"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:184
+msgid "Plugin configuration option"
+msgstr "Opcja konfiguracji plugin"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:186
+msgid "Drag and drop the widget to your sidebar."
+msgstr "Przeciągnij i upuść widget do paska bocznego."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:187
+msgid "Add directly in to the theme using PHP code."
+msgstr "Dodaj bezpośrednio do tematu z wykorzystaniem kodu PHP."
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:200
+#: ../vertical-scroll-slideshow-gallery-v2.php:205
+#: ../vertical-scroll-slideshow-gallery-v2.php:220
+#: ../vertical-scroll-slideshow-gallery-v2.php:221
+msgid "Vertical Scroll Slideshow Gallery V2"
+msgstr "Pokaz przewijania w pionie Galeria V2"

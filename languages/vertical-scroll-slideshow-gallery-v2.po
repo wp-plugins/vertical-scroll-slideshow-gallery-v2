@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vertical scroll slideshow gallery v2\n"
+"POT-Creation-Date: 2015-10-19 22:16+0800\n"
+"PO-Revision-Date: 2015-10-19 22:16+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:110
+msgid "Vertical scroll slideshow"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:112
+#: ../vertical-scroll-slideshow-gallery-v2.php:189
+msgid "Check official website for more information"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:113
+#: ../vertical-scroll-slideshow-gallery-v2.php:190
+msgid "click here"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:122
+msgid "Vertical scroll slideshow gallery v2"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:149
+msgid "Details successfully updated."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:154
+msgid "Plugin setting"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:157
+msgid "Title"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:159
+msgid "Please enter your widget title."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:161
+msgid "Width"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:163
+#: ../vertical-scroll-slideshow-gallery-v2.php:167
+msgid ""
+"Set the scroller width and scroller height to the width/height of the "
+"largest image in your slideshow."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:165
+msgid "Height"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:169
+msgid "Timeout"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:171
+msgid "Please enter slideshow timeout."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:173
+msgid "Enter XML filename"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:175
+msgid "Please enter slideshow XML filename."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:179
+msgid "Submit"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:180
+msgid "Help"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:184
+msgid "Plugin configuration option"
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:186
+msgid "Drag and drop the widget to your sidebar."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:187
+msgid "Add directly in to the theme using PHP code."
+msgstr ""
+
+#: ../vertical-scroll-slideshow-gallery-v2.php:200
+#: ../vertical-scroll-slideshow-gallery-v2.php:205
+#: ../vertical-scroll-slideshow-gallery-v2.php:220
+#: ../vertical-scroll-slideshow-gallery-v2.php:221
+msgid "Vertical Scroll Slideshow Gallery V2"
+msgstr ""

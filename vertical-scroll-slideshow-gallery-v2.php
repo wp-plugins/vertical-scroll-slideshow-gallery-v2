@@ -4,11 +4,13 @@ Plugin Name: Vertical scroll slideshow gallery v2
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Description:  Vertical scroll slideshow gallery plugin will create the vertical scrolling image slideshow gallery on the wordpress widget.
 Author: Gopi Ramasamy
-Version: 7.7
+Version: 7.8
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vertical-scroll-slideshow-gallery-v2
+Domain Path: /languages
 */
 
 function vssg2_slideshow() 
@@ -105,10 +107,10 @@ function vssg2_widget($args)
 function vssg2_control()
 {
 	echo '<p><b>';
-	_e('Vertical scroll slideshow', 'vertical-scroll-slideshow');
+	_e('Vertical scroll slideshow', 'vertical-scroll-slideshow-gallery-v2');
 	echo '.</b> ';
-	_e('Check official website for more information', 'vertical-scroll-slideshow');
-	?> <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('click here', 'vertical-scroll-slideshow'); ?></a></p><?php
+	_e('Check official website for more information', 'vertical-scroll-slideshow-gallery-v2');
+	?> <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('click here', 'vertical-scroll-slideshow-gallery-v2'); ?></a></p><?php
 }
 
 function vssg2_option() 
@@ -117,7 +119,7 @@ function vssg2_option()
 	<div class="wrap">
 	  <div class="form-wrap">
 		<div id="icon-edit" class="icon32 icon32-posts-post"></div>
-		<h2><?php _e('Vertical scroll slideshow gallery v2', 'vertical-scroll-slideshow'); ?></h2>
+		<h2><?php _e('Vertical scroll slideshow gallery v2', 'vertical-scroll-slideshow-gallery-v2'); ?></h2>
 		<?php
 		$vssg2_title = get_option('vssg2_title');
 		$vssg2_width = get_option('vssg2_width');
@@ -144,48 +146,48 @@ function vssg2_option()
 			
 			?>
 			<div class="updated fade">
-				<p><strong><?php _e('Details successfully updated.', 'vertical-scroll-slideshow'); ?></strong></p>
+				<p><strong><?php _e('Details successfully updated.', 'vertical-scroll-slideshow-gallery-v2'); ?></strong></p>
 			</div>
 			<?php
 		}
 		?>
-		<h3><?php _e('Plugin setting', 'vertical-scroll-slideshow'); ?></h3>
+		<h3><?php _e('Plugin setting', 'vertical-scroll-slideshow-gallery-v2'); ?></h3>
 		<form name="vssg2_form" method="post" action="#">
 		
-			<label for="tag-title"><?php _e('Title', 'vertical-scroll-slideshow'); ?></label>
+			<label for="tag-title"><?php _e('Title', 'vertical-scroll-slideshow-gallery-v2'); ?></label>
 			<input name="vssg2_title" type="text" value="<?php echo $vssg2_title; ?>"  id="vssg2_title" size="70" maxlength="200">
-			<p><?php _e('Please enter your widget title.', 'vertical-scroll-slideshow'); ?></p>
+			<p><?php _e('Please enter your widget title.', 'vertical-scroll-slideshow-gallery-v2'); ?></p>
 			
-			<label for="tag-title"><?php _e('Width', 'vertical-scroll-slideshow'); ?></label>
+			<label for="tag-title"><?php _e('Width', 'vertical-scroll-slideshow-gallery-v2'); ?></label>
 			<input name="vssg2_width" type="text" value="<?php echo $vssg2_width; ?>"  id="vssg2_width" maxlength="5">
-			<p><?php _e('Set the scroller width and scroller height to the width/height of the largest image in your slideshow.', 'vertical-scroll-slideshow'); ?> (Example: 100px)</p>
+			<p><?php _e('Set the scroller width and scroller height to the width/height of the largest image in your slideshow.', 'vertical-scroll-slideshow-gallery-v2'); ?> (Example: 100px)</p>
 			
-			<label for="tag-title"><?php _e('Height', 'vertical-scroll-slideshow'); ?></label>
+			<label for="tag-title"><?php _e('Height', 'vertical-scroll-slideshow-gallery-v2'); ?></label>
 			<input name="vssg2_height" type="text" value="<?php echo $vssg2_height; ?>"  id="vssg2_height" maxlength="5">
-			<p><?php _e('Set the scroller width and scroller height to the width/height of the largest image in your slideshow.', 'vertical-scroll-slideshow'); ?> (Example: 85px)</p>
+			<p><?php _e('Set the scroller width and scroller height to the width/height of the largest image in your slideshow.', 'vertical-scroll-slideshow-gallery-v2'); ?> (Example: 85px)</p>
 			
-			<label for="tag-title"><?php _e('Timeout', 'vertical-scroll-slideshow'); ?></label>
+			<label for="tag-title"><?php _e('Timeout', 'vertical-scroll-slideshow-gallery-v2'); ?></label>
 			<input name="vssg2_time" type="text" value="<?php echo $vssg2_time; ?>"  id="vssg2_time" maxlength="5">
-			<p><?php _e('Please enter slideshow timeout.', 'vertical-scroll-slideshow'); ?> (Example: 3000)</p>
+			<p><?php _e('Please enter slideshow timeout.', 'vertical-scroll-slideshow-gallery-v2'); ?> (Example: 3000)</p>
 			
-			<label for="tag-title"><?php _e('Enter XML filename', 'vertical-scroll-slideshow'); ?></label>
+			<label for="tag-title"><?php _e('Enter XML filename', 'vertical-scroll-slideshow-gallery-v2'); ?></label>
 			<input name="vssg2_xml" type="text" value="<?php echo $vssg2_xml; ?>"  id="vssg2_xml" size="40" maxlength="200">
-			<p><?php _e('Please enter slideshow XML filename.', 'vertical-scroll-slideshow'); ?> (Example: widget.xml)</p>
+			<p><?php _e('Please enter slideshow XML filename.', 'vertical-scroll-slideshow-gallery-v2'); ?> (Example: widget.xml)</p>
 			
 			<div style="height:10px;"></div>
 			<input type="hidden" name="vssg2_form_submit" value="yes"/>
-			<input name="vssg2_submit" id="vssg2_submit" class="button" value="<?php _e('Submit', 'vertical-scroll-slideshow'); ?>" type="submit" />
-			<a class="button" target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('Help', 'vertical-scroll-slideshow'); ?></a>
+			<input name="vssg2_submit" id="vssg2_submit" class="button" value="<?php _e('Submit', 'vertical-scroll-slideshow-gallery-v2'); ?>" type="submit" />
+			<a class="button" target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('Help', 'vertical-scroll-slideshow-gallery-v2'); ?></a>
 			<?php wp_nonce_field('vssg2_form_setting'); ?>
 		</form>
 		</div>
-		<h3><?php _e('Plugin configuration option', 'vertical-scroll-slideshow'); ?></h3>
+		<h3><?php _e('Plugin configuration option', 'vertical-scroll-slideshow-gallery-v2'); ?></h3>
 		<ol>
-			<li><?php _e('Drag and drop the widget to your sidebar.', 'vertical-scroll-slideshow'); ?></li>
-			<li><?php _e('Add directly in to the theme using PHP code.', 'vertical-scroll-slideshow'); ?></li>
+			<li><?php _e('Drag and drop the widget to your sidebar.', 'vertical-scroll-slideshow-gallery-v2'); ?></li>
+			<li><?php _e('Add directly in to the theme using PHP code.', 'vertical-scroll-slideshow-gallery-v2'); ?></li>
 		</ol>
-	<p class="description"><?php _e('Check official website for more information', 'vertical-scroll-slideshow'); ?> 
-	<a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('click here', 'vertical-scroll-slideshow'); ?></a></p>
+	<p class="description"><?php _e('Check official website for more information', 'vertical-scroll-slideshow-gallery-v2'); ?> 
+	<a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/"><?php _e('click here', 'vertical-scroll-slideshow-gallery-v2'); ?></a></p>
 	</div>
 	<?php	
 }
@@ -195,12 +197,12 @@ function vssg2_widget_init()
 	if(function_exists('wp_register_sidebar_widget')) 	
 	{
 		wp_register_sidebar_widget('Vertical-Scroll-Slideshow-Gallery-V2', 
-					__('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow'), 'vssg2_widget');
+					__('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow-gallery-v2'), 'vssg2_widget');
 	}
 	if(function_exists('wp_register_widget_control')) 	
 	{
 		wp_register_widget_control('Vertical-Scroll-Slideshow-Gallery-V2', 
-					array( __('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow'), 'widgets'), 'vssg2_control');
+					array( __('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow-gallery-v2'), 'widgets'), 'vssg2_control');
 	} 
 }
 
@@ -215,8 +217,8 @@ function vssg2_deactivation()
 
 function vssg2_add_to_menu() 
 {
-	add_options_page( __('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow'), 
-			__('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow'), 'manage_options', 'vertical-scroll-slideshow-gallery-v2', 'vssg2_option' );
+	add_options_page( __('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow-gallery-v2'), 
+			__('Vertical Scroll Slideshow Gallery V2', 'vertical-scroll-slideshow-gallery-v2'), 'manage_options', 'vertical-scroll-slideshow-gallery-v2', 'vssg2_option' );
 }
 
 if (is_admin()) 
@@ -226,7 +228,7 @@ if (is_admin())
 
 function vssg2_textdomain() 
 {
-	  load_plugin_textdomain( 'vertical-scroll-slideshow', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	  load_plugin_textdomain( 'vertical-scroll-slideshow-gallery-v2', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 
 add_action('plugins_loaded', 'vssg2_textdomain');

@@ -1,8 +1,8 @@
 === Vertical scroll slideshow gallery v2 ===
 Contributors: www.gopiplus.com, gopiplus 
 Requires at least: 3.4
-Tested up to: 4.3
-Stable tag: 7.7
+Tested up to: 4.3.1
+Stable tag: 7.8
 Author URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 Donate link: http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
@@ -28,6 +28,11 @@ Vertical scroll slideshow gallery plugin will create the vertical scrolling imag
 * Easy installation.  
 * Widgets, so you can add pretty much anything.  
 * Easy slideshow size (width & height) override option.
+
+= Translators =
+
+* English (en_EN) - [Gopi Ramasamy](http://www.gopiplus.com/)
+* Polish (pl_PL) - [Abdul Sattar](https://www.couponmachine.in/)
  
 == Installation ==
 
@@ -52,6 +57,11 @@ Q4. Why my slideshow not scroll properly or why one image overlaps another at th
 2. Admin Screen. http://www.gopiplus.com/work/2010/07/18/vertical-scroll-slideshow-gallery-v2/
 
 == Upgrade Notice ==
+
+= 7.8 =	
+
+1. Tested up to 4.3.1
+2. Text Domain slug has been added for Language Packs.
 
 = 7.7 =	
 
@@ -115,6 +125,11 @@ Tested upto 3.0.1
 First version
 
 == Changelog ==
+
+= 7.8 =	
+
+1. Tested up to 4.3.1
+2. Text Domain slug has been added for Language Packs.
 
 = 7.7 =	
 
